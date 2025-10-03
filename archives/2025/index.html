@@ -1,155 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
- <head> 
-  <meta charset="utf-8" /> 
-  <title>Hexo</title> 
-  <link rel="icon" href="/images/fav.png" /> 
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" /> 
-  <link rel="canonical" href="http://example.com" /> 
-  <link rel="stylesheet" href="/css/style.css" /> 
-  <link rel="stylesheet" href="/css/mdui.css" importance="high"/> 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <script src="/js/mdui.min.js" importance="high"></script>   
- <meta name="generator" content="Hexo 8.0.0"></head> 
- <body> 
-   <script>
-    let images = "https://api.ee123.net/img/bingimg/dayimg.jpg"
-    images = images.split(',')
-    let currentIndex = 0;
-
-    function changeBackground() {
-        //document.getElementById("bg").style.opacity = 1; // 渐隐
-        setTimeout(() => {
-            document.getElementById("bg").style.backgroundImage = `url(${images[currentIndex]})`;
-            document.getElementById("bg").style.opacity = 1; // 渐显
-            currentIndex = (currentIndex + 1) % images.length;
-        }, 1000); // 与transition时间一致
-    }
-
-    changeBackground()
-    setInterval(changeBackground, 15000); // 每15秒切换一次背景
-</script>
-  <div class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-theme-layout-auto mdui-loaded"> 
-   <!-- background --> 
-   <div id="bg" class="index_bg"></div> 
-   <!-- main --> 
-   <div>
+  
+  
+  <title>
+    Archives: 2025 |
     
-    <header class="appbar mdui-appbar mdui-appbar-fixed" importance="high"> 
-    <div class="mdui-toolbar mdui-color-theme card-content"> 
-     <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"> <i class="mdui-icon material-icons" mdui-tooltip="{content: '菜单'}">menu</i> </span> 
-     <div class="mdui-toolbar-spacer">
-       
-      <script src="https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@latest/app.js"></script> 
-      <chizaobook style="line-height: 1em; color:antiquewhite;"> 
-       <script>
-               const chizaobook = new Chizaobook({
-                 container: "chizaobook", // string
-                   packageSource: "https://cdn.jsdelivr.net/gh/ChizaoProject/Packages@latest/package_source.json", // string
-                   packageType: null // int
-               });
-             </script> 
-       <!--<div class="mdui-chip" style="margin: auto; position: fixed; transform: translate(0, -50%);">
-             <span id="time" class="mdui-chip-title" style="transform: translate(0, -50%);"></span>
-             <script>
-               var datetime = new Date();
-               console.log(datetime);
-             </script>
-           </div>
-           --> 
-      </chizaobook>
+    Hexo
+  </title>
+  <!-- Icon -->
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<script src="/js/pace.min.js"></script>
+
+<meta name="generator" content="Hexo 8.0.0"></head>
+
+<body>
+  <main class="content">
+    <section class="outer">
+  <article class="articles">
+    
+    <h1 class="page-type-title">2025</h1>
+    
+  
+  
+  
+  
+  
+  
+  <div class="archives-wrap">
+    <div class="archive-year-wrap">
+      <a href="/archives/2025" class="archive-year">2025</a>
+    </div>
+    <div class="archives">
       
-     </div> 
-     <a href="" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Github'}"> 
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;"> 
-       <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M18,1.4C9,1.4,1.7,8.7,1.7,17.7c0,7.2,4.7,13.3,11.1,15.5c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4c-0.2-0.4-0.7-2.1,0.2-4.3c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C34.3,8.7,27,1.4,18,1.4z"></path> 
-      </svg> </a> 
-    </div> 
-   </header>  
-
-    <div class="mdui-drawer mdui-drawer-close sidebar" id="main-drawer"> 
-     <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 75px;"> 
-       
-      <div class="
-                mdui-collapse-item
-                "> 
-       <div class="mdui-collapse-item-header mdui-list-item mdui-ripple"> 
-        <i class="
-                    mdui-list-item-icon
-                    mdui-icon
-                    material-icons
-                    mdui-text-color-blue">near_me</i>
-        <div class="mdui-list-item-content">
-         A1
-        </div> 
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i> 
-       </div>
-        
-         <div class="mdui-collapse-item-body mdui-list"> 
-          <a href="https://example.com/" target="_blank" mdui-tooltip="{content: 'example'}" class="
-                        mdui-list-item
-                        mdui-ripple
-                        ">B1</a> 
-         </div>
-         
-      </div> 
+      <article class="archive-article archive-type-post">
+  
+  
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
       
-     </div> 
-    </div> 
-   </div> 
+  
+  <h2 class="archive-article-title" itemprop="name">
+    <a href="/2025/10/03/hello-world/">Hello World</a>
+  </h2>
+  
+  
 
-   <div id="container" class="container"> 
-    <div class="card"> 
-     <div id="card-content" class="card-content"> 
-      <center>
-       <div class="logo"></div>
-       <style>
-        .logo {
-	        width: 100px;
-	        height: 100px;
-	        margin-top: -50px;
-	        border:1px soild white;
-	        background: url('') no-repeat center;
-	        border-radius: 50px;
-	        background-size: 100px;
-        }
-       </style>
-      </center> 
-      <b class="nickname"></b> 
-      <br /> 
-      <b class="motto"></b> 
-      <p> </p>
-      <div class="social">
-         
-        <a href="https://example.com" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'example'}"><span class="iconfont iconbili"></span></button></a> 
-       
-      </div> 
-     </div> 
-    </div> 
-   </div>  
-
-   <!-- footer --> 
-   <div id="footer" class="footer"> 
-    <p class="remark">
-      <br>
+      <a href="/2025/10/03/hello-world/" class="archive-article-date">
+  <time datetime="2025-10-03T14:12:39.361Z" itemprop="datePublished">10/03</time>
+</a>
+    </header>
+    
       
-      <br>Powered By <a href="https://hexo.io/" target="_blank"> Hexo </a> And <a href="https://mdui.org" target="_blank">MDUI</a>.<br /> Theme ❤ <a href="https://kuri.ink/" target="">kuri</a>. 
-
-    </p> 
-   </div>  
-   <script async="" src="https://blog.kuri.ink/lib/aplayer@1.10.0/aplayer.min.js" type="text/javascript"></script> 
-   <script async="" src="https://blog.kuri.ink/lib/meting/meting.min.js" type="text/javascript"></script>
-
-   
-
-   
-      <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-      <script>LA.init({id: "",ck: ""})</script>
-   
-
+    
+    
+    
   </div>
- </body>
+
+</article>
+      
+      
+    </div>
+  </div>
+  
+  
+
+  
+</section>
+    <footer class="footer">
+  <div class="outer">
+    <ul class="list-inline">
+      <li>Hexo &copy; 2025</li>
+      
+        <li>
+          
+            <a href="https://beian.miit.gov.cn/" target="_blank"></a>
+            
+        </li>
+      
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+    <p><ul class="list-inline">
+  
+  <li><i class="fe fe-smile-alt tooltip" data-tooltip="UV"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+</ul></p>
+  </div>
+</footer>
+  </main>
+  <aside class="sidebar">
+    <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/hexo.svg" alt="Hexo"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">Home</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">Archives</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/gallery">Gallery</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">About</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="Search">
+        <i class="fe fe-search"></i>
+        Search
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <div class="totop" id="totop">
+  <i class="fe fe-rocket"></i>
+</div>
+    </li>
+    <li class="nav-item">
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="fe fe-feed"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+  </aside>
+  
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+
+
+<script src="/js/ocean.js"></script>
+
+</body>
+
 </html>

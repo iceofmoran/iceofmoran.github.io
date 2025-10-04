@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>0基础刷机教程</title>
+    <url>/2025/10/04/page1/</url>
+    <content><![CDATA[<h2 id="前情提要："><a href="#前情提要：" class="headerlink" title="前情提要："></a>前情提要：</h2><p>**刷机有风险，请仔细学习有关知识再进行实操，变砖自己负责 ，帖主有错误的地方及时指出，十分感谢请了解自己的设备是否可以解Bootloader（BL锁），建议买一台可以解锁的设备</p>
+<span id="more"></span>
+
+<p><strong>（请不要拿自己的主力机开玩笑，变砖自己负责）</strong></p>
+<h2 id="友情提示："><a href="#友情提示：" class="headerlink" title="友情提示："></a>友情提示：</h2><p><strong>请不要在晚上7点-早上7点刷机，容易变砖</strong></p>
+<h2 id="刷机是什么？"><a href="#刷机是什么？" class="headerlink" title="刷机是什么？"></a>刷机是什么？</h2><p>首先让我们理解什么是刷机，“刷机”是一个通俗的说法，刷机指的是通过机器提供的端口给智能手机或其他移动设备（如平板电脑），重新安装或替换其操作系统（固件）的形式，‌刷机的核心目的是改变设备原本运行的系统软件。‌</p>
+<h2 id="为什么要刷机？"><a href="#为什么要刷机？" class="headerlink" title="为什么要刷机？"></a>为什么要刷机？</h2><h3 id="升级-降级系统：‌"><a href="#升级-降级系统：‌" class="headerlink" title="升级&#x2F;降级系统：‌"></a>升级&#x2F;降级系统：‌</h3><ul>
+<li><strong>‌官方更新滞后：‌</strong> 当OEM（设备厂商）不再给旧设备提供官方的系统更新，（特别是安卓设备 5年系统维护），可以通过刷入第三方开发者制作的 ROM （刷机包）来获得更新的安卓版本和新功能</li>
+<li><strong>‌降级系统：‌</strong> 官方推送的新系统版本导致设备变卡、耗电快或有Bug，希望刷回之前更稳定流畅的旧版本系统。</li>
+</ul>
+<h3 id="‌更换系统风格-功能：‌"><a href="#‌更换系统风格-功能：‌" class="headerlink" title="‌更换系统风格&#x2F;功能：‌"></a>‌更换系统风格&#x2F;功能：‌</h3><ul>
+<li><strong>‌移除预装软件：‌</strong> 很多厂商预装了大量自家或第三方应用以及广告，用户不喜欢，通过刷原生安卓或精简版 ROM 可以删除这些软件。</li>
+<li><strong>尝试不同UI体验：‌</strong> 不同厂商的定制系统（如小米的 HyperOS，华为的 HarmonyOS等等）或 第三方 ROM（如 LineageOS, Pixel Experience）提供了不同的界面设计和功能特色，用户可以通过刷机体验不同的风格（例如给小米手机刷魅族的Flyme系统）。</li>
+<li><strong>‌获取纯净体验：‌</strong> 追求接近原生安卓的纯净、快速、无广告体验。</li>
+</ul>
+<h3 id="‌解锁功能-获取更高权限：‌"><a href="#‌解锁功能-获取更高权限：‌" class="headerlink" title="‌解锁功能&#x2F;获取更高权限：‌"></a>‌解锁功能&#x2F;获取更高权限：‌</h3><ul>
+<li><strong>获取‌Root权限：‌</strong> 获取设备的最高管理员权限（Root），允许用户深度定制系统、使用Root权限的强大应用（如超频提升性能、系统级别修改、个性化等）。</li>
+<li><strong>实现特定功能：‌</strong> 一些定制ROM可能提供官方系统不支持的功能（如高度个性化的主题引擎、更强力的性能控制等）。</li>
+<li><strong>‌修复系统问题：‌</strong>当手机操作系统崩溃、无法启动（变砖）、或遭受严重软件故障时，刷机通常是恢复设备正常工作的有效手段。</li>
+<li><strong>‌安装测试版&#x2F;开发者预览版系统</strong>：‌对于开发者或科技爱好者，刷入测试版系统（如安卓 Beta 版）可以提前体验新功能并进行测试反馈。</li>
+</ul>
+<h2 id="刷机的流程是怎么样的？"><a href="#刷机的流程是怎么样的？" class="headerlink" title="刷机的流程是怎么样的？"></a>刷机的流程是怎么样的？</h2><p>**刷机方式有很多种：**线刷Bootloader、卡刷Recovery、高通9008深度刷机等等</p>
+<p>**主流刷机方式主要有两种：**线刷Bootloader、卡刷Recovery</p>
+<h3 id="线刷Bootloader"><a href="#线刷Bootloader" class="headerlink" title="线刷Bootloader"></a>线刷Bootloader</h3><p>明确目标🎯—&gt;下载好需要的工具—&gt;解锁（Bl锁）Bootloader锁🔒—&gt;手机进入Bootloader模式—&gt;用数据线连接电脑—&gt;打开adb终端检测是否已连接手机—&gt;刷入固件—&gt;结束刷机</p>
+<h3 id="卡刷Recovery"><a href="#卡刷Recovery" class="headerlink" title="卡刷Recovery"></a>卡刷Recovery</h3><ul>
+<li>**前情提要：**原厂自带的恢复模式自由度并不高（手机厂商做的限制），需要通过线刷第三方的Recovery才能实现更强大的功能，而</li>
+</ul>
+<h3 id="线刷Recovery分区也需要解锁Bootloader"><a href="#线刷Recovery分区也需要解锁Bootloader" class="headerlink" title="线刷Recovery分区也需要解锁Bootloader"></a>线刷Recovery分区也需要解锁Bootloader</h3><p>明确目标🎯—&gt;下载卡刷包到手机对应目录下，记住放卡刷包的路径—&gt;重启到TWRP—&gt;找到卡刷包位置—&gt;刷入卡刷包—&gt;等待刷完重启</p>
+<p><strong>（部分系统刷机前后可能需要双清）</strong></p>
+<p>双清指的是指在Recovery模式下清除设备的‌用户数据分区（Data）‌和‌缓存分区（Cache）‌，目的是彻底清理系统残留数据，为安装新系统做准备。听起来很简单是吧，但是实际操作起来很需要耐心和折腾的动力</p>
+<h2 id="如何解BL锁？"><a href="#如何解BL锁？" class="headerlink" title="如何解BL锁？"></a>如何解BL锁？</h2><h3 id="解bl锁就是解除Bootloader锁"><a href="#解bl锁就是解除Bootloader锁" class="headerlink" title="解bl锁就是解除Bootloader锁"></a><strong>解bl锁就是解除Bootloader锁</strong></h3><p>根据自己手机型号，搜寻官网解锁方式，如果条件太难，建议买一台便宜的机子方便解锁的</p>
+<h2 id="目前手机解锁难度"><a href="#目前手机解锁难度" class="headerlink" title="目前手机解锁难度"></a>目前手机解锁难度</h2><p>解锁可能会炸Tee模块，「三星的Knox加密芯片（物理熔断）」炸了无法使用指纹，安全性下降。</p>
+<ul>
+<li>**简单难度：**一条命令解锁，谷歌，一加，一些小厂类原生手机、Essential</li>
+<li><strong>普通难度</strong>：需要解锁码或文件：联想、摩托罗拉moto、早期荣耀、华为</li>
+<li><strong>中等难度</strong>：需要申请资格写小作文之类的，或者抢名额：中兴、红魔、真我、努比亚、OPPO</li>
+<li>**高级难度：**社区5级签到半年、参加小米高考、高考通过了审核还不一定通过：小米红米新机</li>
+<li>**地狱难度：**底层封死BL锁：IQOO、VIVO、鼎桥、新荣耀、新华为</li>
+</ul>
+<p>目前先更新这么多更新时间25-8-3 23pm</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>欢迎</title>
+    <url>/2025/10/04/page2/</url>
+    <content><![CDATA[<p>这里会更新一些内容～～</p>
+]]></content>
+  </entry>
+</search>

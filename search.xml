@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>欢迎</title>
+    <url>/2025/10/04/page2/</url>
+    <content><![CDATA[<p>这里会更新一些内容～～</p>
+]]></content>
+  </entry>
+  <entry>
     <title>0基础刷机教程</title>
     <url>/2025/10/04/page1/</url>
-    <content><![CDATA[<h2 id="前情提要："><a href="#前情提要：" class="headerlink" title="前情提要："></a>前情提要：</h2><p>**刷机有风险，请仔细学习有关知识再进行实操，变砖自己负责 ，帖主有错误的地方及时指出，十分感谢请了解自己的设备是否可以解Bootloader（BL锁），建议买一台可以解锁的设备</p>
+    <content><![CDATA[<h2 id="前情提要："><a href="#前情提要：" class="headerlink" title="前情提要："></a>前情提要：</h2><p>**刷机有风险，请仔细学习有关知识再进行实操，变砖自己负责 ，帖主有错误的地方及时指出，十分感谢。</p>
+<p>请了解自己的设备是否可以解Bootloader（BL锁），建议买一台可以解锁的设备</p>
 <span id="more"></span>
 
 <p><strong>（请不要拿自己的主力机开玩笑，变砖自己负责）</strong></p>
@@ -43,12 +50,6 @@
 <li>**地狱难度：**底层封死BL锁：IQOO、VIVO、鼎桥、新荣耀、新华为</li>
 </ul>
 <p>目前先更新这么多更新时间25-8-3 23pm</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>欢迎</title>
-    <url>/2025/10/04/page2/</url>
-    <content><![CDATA[<p>这里会更新一些内容～～</p>
 ]]></content>
   </entry>
 </search>
